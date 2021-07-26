@@ -1,0 +1,25 @@
+#contect-articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contect-articles-container article {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 3rem 4rem;
+    width: 350px;
+    height: 270px;
+}
+
+#contect-articles-container article:first-child {
+    margin-right: 2.5rem;
+}
+
+@media (max-width: 991px) {
+    #contect-articles-container article:first-child {
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: var(--bg-color);
+}
+
+main img {
+    width: 100px;
+}
+
+main article {
+    background-color: white;
+}
