@@ -1,3 +1,31 @@
-.cube-container article{
-    opacity: 0.3;
+#articles-container article {
+    text-align: justify;
+}
+
+.border-color-secondary {
+    border-color: var(--secondary) !important;
+}
+
+.border-color-red {
+    border-color: var(--complement-color-red) !important;
+}
+
+.border-color-dark-blue {
+    border-color: var(--complement-color-dark-blue) !important;
+}
+
+.text-color-primary {
+    color: var(--primary);
+}
+
+.text-color-secondary {
+    color: var(--secondary);
+}
+
+.text-color-red {
+    color: var(--complement-color-red);
+}
+
+.text-color-dark-blue {
+    color: var(--complement-color-dark-blue);
 }

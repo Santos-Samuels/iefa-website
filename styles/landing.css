@@ -1,3 +1,9 @@
 h1 {
     font-size: 3rem;
 }
+
+@media (max-width: 434px) {
+    #donate-button {
+        margin-top: 0.5rem;
+    }
+}

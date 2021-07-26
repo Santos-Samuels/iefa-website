@@ -68,7 +68,18 @@ body {
     background-color: var(--complement-color-red) !important;
 }
 
+.bg-light-gray {
+    background-color: var(--bg-color) !important;
+}
+
 .text-color-3 {
     color: var(--text-color-3);
 }
 
+.border-color-primary {
+    border-color: var(--primary) !important;
+}
+
+.border-top, .border-bottom {
+    border-color:rgba(0, 0, 0, 0.1) !important;
+}
