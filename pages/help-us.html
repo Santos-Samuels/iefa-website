@@ -8,6 +8,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/navbar.css">
@@ -33,41 +34,46 @@
          </nav>
     </header>
 
-    <main class="container mt-5 mb-4">
+    <main class="container mt-5 mb-5">
         <section class="row">
-            <div class="text-center col-12 col-lg-6 ">
+            <div class="text-center col-12 col-lg-6" data-aos="zoom-out-right">
                 <h1 class="mb-3 border-bottom pb-1">Seja um doador</h1>
                 <p>Para ajudar os alunos e suas famílias, o Instituto IEFA recebe diversos tipos de doação! Você pode ajudar com <b>alimentos, produtos de limpeza e de higiene, roupas, calçados, brinquedos, objetos para a prática esportiva, cestas básicas e cestas verdes</b>.</p>
                 <p>As doações podem ser entregues na sede do Instituto. Caso não possa levar as doações entre em contato conosco.</p>
-                <button class="btn btn-primary fs-5 ps-3 pe-3 pt-2 pb-2" id="donate-button">Seja um doador</button>
+                <a href=""><button class="btn btn-primary fs-5 ps-3 pe-3 pt-2 pb-2" id="donate-button">Seja um doador</button></a>
             </div>
             
-            <div class="mt-5 mt-lg-0 text-center col-12 col-lg-6 ">
+            <div class="mt-5 mt-lg-0 text-center col-12 col-lg-6" data-aos="zoom-out-left">
                 <h1 class="mb-3 border-bottom pb-1">Seja um voluntário</h1>
                 <p>O Instituto IEFA conta com a ajuda de diversos voluntários para garantir o funcionamento do projeto. Além disso, para expandir as atividades, o instituto precisa de profissionais de diferentes áreas. Você pode ser voluntário oferecendo aulas de dança, de esportes, de informática, entre outros, ou ajudando o projeto com a logística e com a organização de atividades.</p>
-                <button class="btn btn-secondary fs-5 ps-3 pe-3 pt-2 pb-2 me-2">Seja um voluntário</button>
+                <a href=""><button class="btn btn-secondary fs-5 ps-3 pe-3 pt-2 pb-2 me-2">Seja um voluntário</button></a>
             </div>
+        </section>
+
+        <section class="text-center mt-5 mb-4" data-aos="zoom-out-up">
+            <i class="bi bi-heart-fill fs-3 text-color-red"></i>
+            <p class="fs-5">Sua contribuição faz toda diferença! Doe e ajude a realizar sonhos.</p>
         </section>
 
         <section class="mt-5">
             <h2 class="mb-3 border-bottom pb-1 border-top text-center">Motivos para ajudar</h2>
-            <div class="row g-4" id="articles-container">
-                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-primary">
+            <div class="row g-4 m-3 m-lg-0" id="articles-container">
+                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-primary" data-aos="fade-up">
                     <h4 class="text-color-primary"><i class="bi bi-asterisk fs-5"></i> Crianças e adolescentes</h4>
                     <p>Com a sua ajuda, milhares de crianças, adolescentes e suas famílias poderão participar de diversas atividades educacionais, esportivas, culturais e de lazer gratuitamente. Dê uma contribuição, deixe esses meninos e meninas entrarem em um ambiente saudável e cheio de informações, para que tenham uma nova perspectiva de vida.</p>
                 </article>
 
-                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-secondary">
+                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-secondary" data-aos="fade-up">
                     <h4 class="text-color-secondary"><i class="bi bi-asterisk fs-5"></i> Famílias</h4>
                     <p>Sua participação pode ajudar as famílias a se integrarem a atividades e projetos que as reúnam em casa. Ao usar uma grande quantidade de informações para reconstruir os alicerces da família e melhorar a qualidade de vida e educação, essas crianças podem se tornar indivíduos de sucesso nos campos pessoal e profissional.</p>
                 </article> 
 
-                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-red">
+                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-red" data-aos="fade-up">
                     <h4 class="text-color-red"><i class="bi bi-asterisk fs-5"></i> Ensinar</h4>
                     <p>Sua ajuda pode ensinar mais do que apenas palavras e números. Mostre que grandes oportunidades começam em casas, salas de aula, instalações e campos esportivos. Apenas fornecer palavras não é suficiente, porque os sonhos são realizados por meio de suas ações.</p>
                 </article>
 
-                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-dark-blue">
+                <article class="col-12 col-lg-6 border-start border-4 p-2 pe-4 border-color-dark-blue" data-aos="fade-up">
                     <h4 class="text-color-dark-blue"><i class="bi bi-asterisk fs-5"></i> Multiplicar</h4>
                     <p>A multiplicação de boas ações e bons modelos começa com o seu apoio. Participar do desenvolvimento de novos projetos e da idealização de novos objetivos.</p>
                 </article>
@@ -76,5 +82,9 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1000});
+    </script>
 </body>
 </html>
