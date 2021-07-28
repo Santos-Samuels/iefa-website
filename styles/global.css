@@ -22,6 +22,7 @@ body {
 
 .btn-primary {
     background-color: var(--primary);
+    border-color: #08809b !important;
 }
 
 .btn-primary:hover {
@@ -82,4 +83,8 @@ body {
 
 .border-top, .border-bottom {
     border-color:rgba(0, 0, 0, 0.1) !important;
+}
+
+.hideScroll {
+    overflow: hidden !important;
 }

@@ -4,8 +4,7 @@
     width: 100%;
     padding: 3% 4%;
     float: left;
-    background-color: var(--bg-color);
-    
+    background-color: #235661;
 }
 
 .social-icons a {
@@ -14,10 +13,6 @@
     margin-right: 3%;
 }
 
-.link-footer a {
-    text-decoration: none;
-}
-
-.copy{
-    color: var(--text-color-1);
+.copy p {
+    color: #F2F2F2;
 }

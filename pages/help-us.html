@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="/styles/help-us.css">
     <link rel="stylesheet" href="/styles/footer.css">
 </head>
-<body>
+<body class="">
     <header>
         <nav>
             <div class="logo">LOGO</div>
             <input type="checkbox" id="click">
-            <label for="click" class="menu-btn">
+            <label for="click" class="menu-btn" onclick="hideScrollBar()">
                 <i class="bi bi-list fs-1"></i>
             </label>
 
@@ -29,7 +29,7 @@
                <li><a href="about.html">Quem somos</a></li>
                <li><a href="works.html">Iniciativas</a></li>
                <li><a class="active" href="help-us.html">Ajudar</a></li>
-               <li><a href="#">Ensino</a></li>
+               <li><a href="/pages/school.html">Ensino</a></li>
                <li><a href="contact.html">Contato</a></li>
             </ul>
          </nav>
@@ -37,17 +37,17 @@
 
     <main class="container mt-5 mb-5">
         <section class="row">
-            <div class="text-center col-12 col-lg-6" data-aos="zoom-out-right">
+            <div class="text-center col-12 col-lg-6" data-aos="fade-right">
                 <h1 class="mb-3 border-bottom pb-1">Seja um doador</h1>
                 <p>Para ajudar os alunos e suas famílias, o Instituto IEFA recebe diversos tipos de doação! Você pode ajudar com <b>alimentos, produtos de limpeza e de higiene, roupas, calçados, brinquedos, objetos para a prática esportiva, cestas básicas e cestas verdes</b>.</p>
                 <p>As doações podem ser entregues na sede do Instituto. Caso não possa levar as doações entre em contato conosco.</p>
-                <a href=""><button class="btn btn-primary fs-5 ps-3 pe-3 pt-2 pb-2" id="donate-button">Seja um doador</button></a>
+                <a href="https://api.whatsapp.com/send?l=pt_BR&phone=75988125668&text=Olá equipe IEFA, vir pelo site! Eu gostaria de fortalecer o projeto com uma doação."><button class="btn btn-primary fs-5 ps-3 pe-3 pt-2 pb-2" id="donate-button">Seja um doador</button></a>
             </div>
             
-            <div class="mt-5 mt-lg-0 text-center col-12 col-lg-6" data-aos="zoom-out-left">
+            <div class="mt-5 mt-lg-0 text-center col-12 col-lg-6" data-aos="fade-left">
                 <h1 class="mb-3 border-bottom pb-1">Seja um voluntário</h1>
                 <p>O Instituto IEFA conta com a ajuda de diversos voluntários para garantir o funcionamento do projeto. Além disso, para expandir as atividades, o instituto precisa de profissionais de diferentes áreas. Você pode ser voluntário oferecendo aulas de dança, de esportes, de informática, entre outros, ou ajudando o projeto com a logística e com a organização de atividades.</p>
-                <a href=""><button class="btn btn-secondary fs-5 ps-3 pe-3 pt-2 pb-2 me-2">Seja um voluntário</button></a>
+                <a href="https://api.whatsapp.com/send?l=pt_BR&phone=75988125668&text=Olá equipe IEFA, vir pelo site! Eu gostaria de fazer parte do projeto como voluntário."><button class="btn btn-secondary fs-5 ps-3 pe-3 pt-2 pb-2 me-2">Seja um voluntário</button></a>
             </div>
         </section>
 
@@ -83,22 +83,16 @@
     </main>
 
     <!--Rodapé-->
-    <footer class="rodape navbar-fixed-bottom text-center">
+    <footer class="rodape text-center mt-5">
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/instituto-de-educação-ferreira-alves-0b3b88214/" target="_blank"><i class="bi bi-linkedin"></i></a>
             <a href="https://www.instagram.com/institutoiefa.ba/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=75988125668&text=Olá equipe IEFA, vir pelo site!"><i class="bi bi-whatsapp"></i></a>
         </div>
-        <div class="link-footer">
-            <a class="doe fs-5" href="#">Faça sua doação</a>
-            <a class="colab fs-5" href="#">Seja um voluntário</a>
-            
+        <div class="copy mt-5">
+            <p class="fs-6">Copyright © IEFA 2021. Todos os direitos reservados.</p>
+            <p class="fs-6"> © Desenvolvido por <a class="text-decoration-none" href="https://www.linkedin.com/in/lucas-souza-de-jesus-543427195/">Lucas Souza</a> e <a class="text-decoration-none" href="https://www.linkedin.com/in/samuel-santos-0aaa2a1b3/">Samuel Santos</a> ©</p>
         </div>
-        <div class="copy">
-            <p class="fs-6 text-light" >Copyright © IEFA 2021. Todos os direitos reservados</p>
-            <p class="fs-6 text-light" > © Desenvolvido por Lucas Souza e Samuel Santos ©</p>
-        </div>
-        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -106,5 +100,6 @@
     <script>
         AOS.init({duration: 1000});
     </script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

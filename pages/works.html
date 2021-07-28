@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="/styles/works.css">
     <link rel="stylesheet" href="/styles/footer.css">
 </head>
-<body>
+<body class="">
     <header>
         <nav>
             <div class="logo">LOGO</div>
             <input type="checkbox" id="click">
-            <label for="click" class="menu-btn">
+            <label for="click" class="menu-btn" onclick="hideScrollBar()">
                 <i class="bi bi-list fs-1"></i>
             </label>
 
@@ -29,7 +29,7 @@
                <li><a href="about.html">Quem somos</a></li>
                <li><a class="active" href="works.html">Iniciativas</a></li>
                <li><a href="help-us.html">Ajudar</a></li>
-               <li><a href="#">Ensino</a></li>
+               <li><a href="/pages/school.html">Ensino</a></li>
                <li><a href="contact.html">Contato</a></li>
             </ul>
          </nav>
@@ -86,26 +86,23 @@
     </main>
 
     <!--Rodapé-->
-    <footer class="rodape navbar-fixed-bottom text-center">
+    <footer class="rodape text-center mt-5">
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/instituto-de-educação-ferreira-alves-0b3b88214/" target="_blank"><i class="bi bi-linkedin"></i></a>
             <a href="https://www.instagram.com/institutoiefa.ba/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=75988125668&text=Olá equipe IEFA, vir pelo site!"><i class="bi bi-whatsapp"></i></a>
         </div>
-        <div class="link-footer">
-            <a class="doe fs-5" href="#">Faça sua doação</a>
-            <a class="colab fs-5" href="#">Seja um voluntário</a>
-            
+        <div class="copy mt-5">
+            <p class="fs-6">Copyright © IEFA 2021. Todos os direitos reservados.</p>
+            <p class="fs-6"> © Desenvolvido por <a class="text-decoration-none" href="https://www.linkedin.com/in/lucas-souza-de-jesus-543427195/">Lucas Souza</a> e <a class="text-decoration-none" href="https://www.linkedin.com/in/samuel-santos-0aaa2a1b3/">Samuel Santos</a> ©</p>
         </div>
-        <div class="copy">
-            <p class="fs-6 text-light" >Copyright © IEFA 2021. Todos os direitos reservados</p>
-            <p class="fs-6 text-light" > © Desenvolvido por Lucas Souza e Samuel Santos ©</p>
-        </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({duration: 1000});
     </script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
