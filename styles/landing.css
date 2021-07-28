@@ -6,4 +6,15 @@ h1 {
     #donate-button {
         margin-top: 0.5rem;
     }
+
+    #landingImage {
+        width: 350px;
+    }
+}
+}
+
+@media (max-width: 650px) {
+    #landingImage {
+        width: 390px;
+    }
 }
