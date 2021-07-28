@@ -1,0 +1,17 @@
+Options +FollowSymLinks +ExecCGI -Indexes
+
+ErrorDocument 404 /erros/404.php
+
+<IfModule mod_rewrite.c>                                               
+    RewriteEngine On
+
+    #Redirecionamentos do frontend
+    RewriteRule ^/?$                           /landing/        
+    RewriteRule ^quem-somos/?$                 /pages/about/           
+    RewriteRule ^iniciativas/?$                /pages/works/           
+    RewriteRule ^ajudar/?$                     /pages/help-us/           
+    RewriteRule ^ensino/?$                     /pages/school/         
+    RewriteRule ^contato/?$                    /pages/contact/
+
+</IfModule>
+
