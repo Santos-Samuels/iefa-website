@@ -1,5 +1,15 @@
 # iefa-website
 
+
+# Site desenvolvido com
+>
+<span>  
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>  
+</span>
+
+# Sobre o projeto
+
+
 <img src="/prints/Inicio.png">
 
 > Status: Em Desenvolvimento ⚠️
@@ -14,7 +24,7 @@
 <img src=/prints/Sobre.png>
 
 ### Iniciativas
-<img src=/prints/Iniviaticas.png>
+<img src=/prints/Iniciativas.png>
 
 ### Ajudar
 <img src=/prints/Ajudar.png>
