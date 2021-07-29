@@ -14,7 +14,7 @@
 <img src=/prints/Sobre.png>
 
 ### Iniciativas
-<img src=/prints/Iniviaticas.png>
+<img src=/prints/Iniciativas.png>
 
 ### Ajudar
 <img src=/prints/Ajudar.png>
