@@ -19,6 +19,8 @@
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-1572B6?style=for-the-badge&logo=PHP&logoColor=white"/>
   <img src="https://img.shields.io/badge/aos-1572B6?style=for-the-badge&logo=aos&logoColor=white"/>
+  <img src="https://img.shields.io/badge/aos-6675c1?style=for-the-badge&logo=aos&logoColor=black"/>
+  <img src="https://img.shields.io/badge/responsividade-F2F2F2?style=for-the-badge&logo=aos&logoColor=black"/>
 </span>
 
 
