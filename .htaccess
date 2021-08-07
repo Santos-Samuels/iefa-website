@@ -6,12 +6,12 @@ ErrorDocument 404 /erros/404.php
     RewriteEngine On
 
     #Redirecionamentos do frontend
-    RewriteRule ^/?$                           /landing/        
-    RewriteRule ^quem-somos/?$                 /pages/about/           
-    RewriteRule ^iniciativas/?$                /pages/works/           
-    RewriteRule ^ajudar/?$                     /pages/help-us/           
-    RewriteRule ^ensino/?$                     /pages/school/         
-    RewriteRule ^contato/?$                    /pages/contact/
+    RewriteRule ^/?$                           /index.html        
+    RewriteRule ^quem-somos/?$                 /pages/about.html           
+    RewriteRule ^iniciativas/?$                /pages/works.html          
+    RewriteRule ^ajudar/?$                     /pages/help-us.html           
+    RewriteRule ^ensino/?$                     /pages/school.html         
+    RewriteRule ^contato/?$                    /pages/contact.html
 
 </IfModule>
 
