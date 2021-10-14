@@ -6,6 +6,7 @@
 ### Este site foi desenvolvido para o Instituto de Educação Ferreira Alves, com objetivo de melhorar a interação da instituição com o público, além de aumentar o seu alcance de visibilidade, pensando em beneficiar ainda mais pessoas e conquistar novos colaboradores voluntários e doadores para manter e fortalecer o projeto.
 
 > Status: Concluído ⚠️
+> https://institutoferreiraalves.com.br/
 
 #### Desenvolvido por [Lucas Souza](https://github.com/LucasSjesus) e [Samuel Santos](https://github.com/Santos-Samuels), voluntários do projeto.
 
