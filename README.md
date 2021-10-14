@@ -1,5 +1,5 @@
 # iefa-website
-<p>O IEFA é uma instituição que realiza ações sociais na cidade de Feira de Santana.</p> <br>
+<p>O IEFA é uma instituição que realiza ações sociais na cidade de Feira de Santana.</p>
 Link do site: https://institutoferreiraalves.com.br/
 
 # Sobre o projeto
