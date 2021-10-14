@@ -1,12 +1,12 @@
 # iefa-website
-<p>O IEFA é uma instituição que realiza ações sociais na cidade de Feira de Santana.</p>
+<p>O IEFA é uma instituição que realiza ações sociais na cidade de Feira de Santana.</p> <br>
+Link do site: https://institutoferreiraalves.com.br/
 
 # Sobre o projeto
 
 ### Este site foi desenvolvido para o Instituto de Educação Ferreira Alves, com objetivo de melhorar a interação da instituição com o público, além de aumentar o seu alcance de visibilidade, pensando em beneficiar ainda mais pessoas e conquistar novos colaboradores voluntários e doadores para manter e fortalecer o projeto.
 
-> Status: Concluído ⚠️ <br>
-> https://institutoferreiraalves.com.br/
+> Status: Concluído ⚠️
 
 #### Desenvolvido por [Lucas Souza](https://github.com/LucasSjesus) e [Samuel Santos](https://github.com/Santos-Samuels), voluntários do projeto.
 
